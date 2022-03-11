@@ -20,5 +20,5 @@ Terminal Widget: \[[Termoid](https://bhskr.com/termoid/)\]
 ```
 git clone https://github.com/19noam/dotfiles.git
 cd dotfiles/.config
-cp kitty ~/.config/
-cp neofetch ~/.config/
+cp -r kitty ~/.config/
+cp -r neofetch ~/.config/
