@@ -1,0 +1,40 @@
+# View the calender by typing the first three letters of the month.
+
+alias jan='cal -m 01'
+alias feb='cal -m 02'
+alias mar='cal -m 03'
+alias apr='cal -m 04'
+alias may='cal -m 05'
+alias jun='cal -m 06'
+alias jul='cal -m 07'
+alias aug='cal -m 08'
+alias sep='cal -m 09'
+alias oct='cal -m 10'
+alias nov='cal -m 11'
+alias dec='cal -m 12'
+
+#shortcut command for youtube-dl
+alias ytd="youtube-dl"
+
+#update and upgrade
+alias superupdate="sudo apt update && sudo apt upgrade"
+
+
+#update all pip packages
+alias pipup="pip3 list --outdated --format=freeze | grep -v '^-e' | cut -d = -f 1 | xargs -n1 pip3 install -U" 
+
+
+#replace sudo with doas
+#alias sudo="doas"
+
+#replace killall with ka
+alias ka="killall"
+
+
+#terminal color test
+alias colortest="npx colortest"
+
+#ColorScript at the start of terminal 
+#colorscript random
+
+
