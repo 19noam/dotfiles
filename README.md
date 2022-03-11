@@ -22,3 +22,4 @@ git clone https://github.com/19noam/dotfiles.git
 cd dotfiles/.config
 cp -r kitty ~/.config/
 cp -r neofetch ~/.config/
+```
