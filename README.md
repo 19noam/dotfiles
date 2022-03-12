@@ -5,7 +5,7 @@
 
 # System
 ```
-OS: Ubuntu 20.04.4 LTS x86_64
+OS: Kubuntu 20.04.4 LTS x86_64
 Terminal:Kitty
 Theme:Nordic
 Icons:Tela-dark
